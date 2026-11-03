@@ -1,0 +1,28 @@
+.flags{
+    height: 300px;
+    width: 500px;
+    position: relative;
+}
+.green{
+    background-color: green;
+    height: 100px;
+}
+.white{
+    background-color: white;
+    height: 100px;
+}
+.red{
+    background-color: red;
+    height: 100px;
+}
+.black{
+    position: absolute;
+    height: 100px;
+    width: 0;
+    top: 0;
+    left: 6px;
+    margin-top:8px ;
+    border-left: 150px solid black;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+}

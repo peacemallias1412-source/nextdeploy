@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(44, 42, 42);
+}
+
+.flag {
+    width: 600px;
+    height: 500px;
+    background-color: rgb(226, 34, 34);
+    position: relative;
+    z-index: 0;
+}
+
+.flag > div > div {
+    width: 600px;
+    height: 250px;
+    background-color: rgb(36, 65, 194);
+    position: relative;
+    top: -25px;
+    left: -200px;
+    bottom: 150px;
+    z-index: -1;
+}
+.flag > div {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    border-radius: 50%;
+}

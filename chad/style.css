@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+}
+.flags{
+    width: 600px;
+    height: 400px ;
+    display: flex;
+}
+.blue{
+    width: 200px;
+    background-color: blue;
+}
+
+.yellow{
+    width: 200px;
+    background-color: yellow;
+}
+
+.red{
+    width: 200px;
+    background-color: red;
+}
